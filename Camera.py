@@ -27,7 +27,7 @@ class Camera:
         return Camera.megapixels
 
 
-if __name__ == '__main_':
+if __name__ == "__main__":
     first_camera = Camera()
     second_camera = Camera("Canon", 1024, 15)
     third_camera = Camera("Sony", 16384, 20, "JPEG", "SD-card", 1080)
